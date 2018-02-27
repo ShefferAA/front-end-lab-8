@@ -1,0 +1,34 @@
+
+.material-icons.orange {
+    color: #FB8C00;
+}
+.material-icons.grey {
+    color: #929292;
+}
+ul{
+    padding-left: 15px;
+    display: none;
+}
+#root>ul{
+    display: block;
+}
+.folOpened>ul{
+    display: block;
+}
+
+li{
+    list-style: none;
+    box-sizing: border-box;
+}
+li div:hover{
+    cursor: pointer;
+    background: #ebebeb;
+}
+li div{
+    display: flex;
+    align-items: center;
+}
+ul>i:hover{
+    cursor: pointer;
+}
+
